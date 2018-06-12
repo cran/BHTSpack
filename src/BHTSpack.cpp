@@ -44,10 +44,10 @@ SEXP hat_pai(SEXP z, SEXP ph1, SEXP ph0, SEXP mu1, SEXP mu0, SEXP sigma1, SEXP s
       // compute hatpai
       double r = val0/val1;
 
-      if (isnan(r) || isinf(r))
-        xhatpai[it+n] = 0.5;
-      else
+      if (R_FINITE(r))
         xhatpai[it+n] = 1.0 / (1.0+(1.0-xpai)/xpai*r);
+      else
+        xhatpai[it+n] = 0.5;
     }
     it += xN[m];
   }

@@ -1,4 +1,4 @@
-48ec7bd90ac162e3fa21168b9ecd9463 *DESCRIPTION
+11e97d1f583deeb2756ce86887ada91a *DESCRIPTION
 6f50b1c052b280f92cd2529801d91b9b *NAMESPACE
 0d9e89f8be00f8c0038e81330a00d28e *R/abfun.R
 06e209f49319899414824b305e5c84b9 *R/alpha.u.R
@@ -20,13 +20,13 @@ f20b61bd74df046e77d8537286ef34e0 *R/pai.u.R
 b6e0af816bf24ccf07ae1ad5859760fa *R/sig.k.u.R
 2972e393d2cdfb0f8f023e5d04f9b109 *R/tau.u.R
 ed68f73ab7362baebb4019affae4bfd3 *R/z.pr.u.R
-199bb8f19d85a27f573232892377b092 *build/partial.rdb
+f493ebebeafc0072af885814af84cdf1 *build/partial.rdb
 b2c0b0a000ee44d5822b463d30c327ab *build/vignette.rds
 e8b09cee4232af089b3c2ac47c94c8ab *inst/CITATION
 1fe01548c69fc27601d2264fd74dbd5e *inst/doc/BHTSpackManual.R
-a6a3ffb10bee9674102019760b22fea5 *inst/doc/BHTSpackManual.Rnw
-052e869b1c42fb370dfb2e90cf4563b9 *inst/doc/BHTSpackManual.pdf
-40ad6a6b0bc3ef2684ba8d603bc431ae *man/BHTSpack-package.Rd
+6af6e3cfc7e38bb602fdee9ab9ca1e20 *inst/doc/BHTSpackManual.Rnw
+eb65d6f78585e6ddb490cb6045bf9dff *inst/doc/BHTSpackManual.pdf
+b82da8ab9751e471935f39b24ca47134 *man/BHTSpack-package.Rd
 93b3e61c85da76ae709ecff540e55c71 *man/abfun.Rd
 9b5317e25182a36cc3a393a7ce02a006 *man/alpha.u.Rd
 04ccb511426e03429a881b1157ba7d7b *man/b.u.Rd
@@ -47,10 +47,10 @@ fbbbf0cc0e4c391050ce57e4463b05b5 *man/ptrace.Rd
 28dd82489803eac2d8b934c2c049f622 *man/sig.k.u.Rd
 d2ad88c4041a99877763ec772205f450 *man/tau.u.Rd
 8d52f8d8b49fe3e197b4a616d6f6451b *man/z.pr.u.Rd
-14b4446713040d1e8f56ab3656e30359 *src/BHTSpack.cpp
+7867d23ad46b3f77f5d8c8b1b4a6244c *src/BHTSpack.cpp
 40ec05b7f83c750e8d72cee3ca085b31 *src/registerDynamicSymbol.cpp
 554c45c8a36448cc5545330a6a9b6bd8 *vignettes/BHTSpackBibl.bib
-a6a3ffb10bee9674102019760b22fea5 *vignettes/BHTSpackManual.Rnw
+6af6e3cfc7e38bb602fdee9ab9ca1e20 *vignettes/BHTSpackManual.Rnw
 d1ac8a6264f6334b3b8cebf94d732121 *vignettes/covcol.csv
 dd7b250023a78886686242fee5a270f6 *vignettes/covcol384.csv
 e84a5a412fcc66e72767aff1112b9b61 *vignettes/covrow.csv

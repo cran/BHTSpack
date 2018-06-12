@@ -14,7 +14,7 @@
  \oddsidemargin=0in \evensidemargin=0in
 
 
-\title{\texttt{BHTSpack}: Bayesian Multi-Plate High-Troughput Screening of Compounds}
+\title{\texttt{BHTSpack}: Bayesian Multi-Plate High-Throughput Screening of Compounds}
 
 \author{Ivo D. Shterev \thanks{Correspondence: i.shterev@duke.edu} \and David B. Dunson \and Cliburn Chan \and Gregory D. Sempowski}
 
@@ -26,7 +26,7 @@
 \section{Introduction}
 This vignette describes the use of the R extension package \texttt{BHTSpack} for Bayesian multi-plate high-throughput screening of compounds. The package implements the non-parametric Bayes model described in \cite{shterev}. The model infers potential active compounds (hits) from multiple plates, simultaneously. The plate geometry can be arbitrary and plates may contain different numbers of unique compounds.
 
-This vignette mainly describes the package functionalities, along with examples. We also provide code that reproduces figues in the main body of \cite{shterev}. For more detailed description of the statistical model, please see \cite{shterev}.
+This vignette mainly describes the package functionalities, along with examples. We also provide code that reproduces figures in the main body of \cite{shterev}. For more detailed description of the statistical model, please see \cite{shterev}.
 
 \section{Data Format}
 The R package \texttt{BHTSpack} assumes that the compound data set is in the form of a list of vectors. Each vector represents a plate. The vector names are the plate names. The element names within a vector are the compound names.  

@@ -1,7 +1,7 @@
 Package: BHTSpack
 Type: Package
 Title: Bayesian Multi-Plate High-Throughput Screening of Compounds
-Version: 0.1
+Version: 0.2
 Authors@R: c(person(c("Ivo", "D."), "Shterev", role = c("aut", "cre"),
               email = "i.shterev@duke.edu"),
               person(c("David", "B."), "Dunson", role = "aut"),
@@ -14,11 +14,11 @@ Suggests: knitr
 License: GPL-3
 LazyLoad: yes
 NeedsCompilation: yes
-Packaged: 2018-06-05 15:57:04 UTC; is33
+Packaged: 2018-06-11 15:07:34 UTC; is33
 Author: Ivo D. Shterev [aut, cre],
   David B. Dunson [aut],
   Cliburn Chan [aut],
   Gregory D. Sempowski [aut]
 Maintainer: Ivo D. Shterev <i.shterev@duke.edu>
 Repository: CRAN
-Date/Publication: 2018-06-10 15:13:05 UTC
+Date/Publication: 2018-06-12 11:29:41 UTC
