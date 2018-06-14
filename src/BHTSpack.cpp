@@ -2,7 +2,7 @@
 #include <R.h>
 #include <Rinternals.h>
 #include <Rmath.h>
-#include <iostream>
+#include <algorithm>
 
 using namespace std;
 

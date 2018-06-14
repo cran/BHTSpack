@@ -55,7 +55,7 @@ h.pr.u(z, ih, mu, sigma, pk, K, H, n)
 
   ih = sample(H,sum(n), replace=TRUE)
 
-  pk = as.vector(sapply(1:M, function(x){lambda.u(rbeta(K, 1, 1))}))
+  pk = lambda.u(rbeta(K, 1, 1))
 
   h.pr.u(z, ih, mu, sigma, pk, K, H, n)
 }
