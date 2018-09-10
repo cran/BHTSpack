@@ -17,10 +17,6 @@ ind.u(pr)
 }
 }
 
-\value{
- Describe
-}
-
 \examples{
   Nmax = 100
   K = 5

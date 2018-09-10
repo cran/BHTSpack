@@ -9,7 +9,7 @@
 }
 \usage{
 bhts(Z, iters, H, K, mu00=NULL, mu10=NULL, a.alpha, b.alpha, a.tau, b.tau, 
-s=NULL, store=FALSE)
+pnorm=FALSE, s=NULL, store=FALSE)
 }
 
 \arguments{
@@ -42,6 +42,10 @@ s=NULL, store=FALSE)
 }
   \item{b.tau}{
   Gamma rate parameter specifying global DP concentration prior.
+}
+  \item{pnorm}{
+  Plate normalization. If \eqn{TRUE}, each plate is normalized 
+  to zero mean and unit variance, prior to analysis. Default is \eqn{FALSE}.
 }
   \item{s}{
   Random seed (for reproducibility purposes). Default is \eqn{NULL}.

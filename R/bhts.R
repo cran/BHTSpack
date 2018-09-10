@@ -1,6 +1,9 @@
-bhts = function(Z, iters, H, K, mu00=NULL, mu10=NULL, a.alpha, b.alpha, a.tau, b.tau, s=NULL, store=FALSE){
+bhts = function(Z, iters, H, K, mu00=NULL, mu10=NULL, a.alpha, b.alpha, a.tau, b.tau, pnorm=FALSE, s=NULL, store=FALSE){
   if (!is.null(s))
     set.seed(s)
+
+  if (pnorm)
+    Z = lapply(Z, function(x){(x-mean(x))/sd(x)})
 
   a0.alpha = a.alpha
   a1.alpha = a.alpha

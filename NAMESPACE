@@ -12,6 +12,7 @@ importFrom("stats", "uniroot")
 importFrom("graphics", "layout")
 importFrom("graphics", "plot")
 importFrom("stats", "acf")
+importFrom("stats", "sd")
 import(R2HTML)
 import(xtable)
 

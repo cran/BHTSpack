@@ -35,10 +35,6 @@ z.pr.u(z, hk, mu, sigma, ph, H, n)
 }
 }
 
-\value{
- Describe
-}
-
 \examples{
   Nmax = 100
   K = 5

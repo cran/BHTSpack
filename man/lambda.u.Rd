@@ -17,10 +17,6 @@ lambda.u(nu)
 }
 }
 
-\value{
- Describe
-}
-
 \examples{
   H = 5
   nu = rbeta(H, 1, 1)

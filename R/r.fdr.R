@@ -5,7 +5,7 @@ r.fdr = function(res, fdr=0.05){
   res = res[ind,]
   rownames(res) = NULL
 
-  r = uniroot(fdr.r, hatpai=res[["hatpai"]], fdr=fdr, interval= c(0, 0.999))[["root"]]
+  r = uniroot(fdr.r, hatpai=res[["hatpai"]], fdr=fdr, interval=c(0,max(hatpai)-10^-4))[["root"]]
   res = subset(res, hatpai>r)
 
   return(list(res=res, r=r))

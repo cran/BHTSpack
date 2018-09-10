@@ -22,7 +22,7 @@ Maintainer: I. D. Shterev <i.shterev@duke.edu>
 }
 \references{
    I. D. Shterev, D. B. Dunson, C. Chan and G. D. Sempowski. 
-   "Bayesian Multi-Plate High-Throughput Screening of Compounds". \emph{Scientific Reports} to appear.
+   "Bayesian Multi-Plate High-Throughput Screening of Compounds". \emph{Scientific Reports}, 8(1):9551, 2018.
 }
 
 \keyword{ package }

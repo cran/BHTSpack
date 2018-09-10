@@ -38,10 +38,6 @@ h.pr.u(z, ih, mu, sigma, pk, K, H, n)
 }
 }
 
-\value{
- Describe
-}
-
 \examples{
   Nmax = 100
   K = 5

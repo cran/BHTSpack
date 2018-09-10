@@ -32,10 +32,6 @@ sig.k.u(k, ik, z, mu0, a0, b0)
 }
 }
 
-\value{
- Describe
-}
-
 \examples{
   K = 5
   n = 100

@@ -60,6 +60,7 @@ The package main function is \texttt{bhts()}. The following input data and param
 \item {\texttt{\{mu00, mu10\}}}: Activity levels (means) of non-hit and hit compounds, respectively. If \texttt{NULL} (default), \texttt{mu00} is set as half the mean of all compounds and \texttt{mu10=3*mu00}.
 \item {\texttt{\{a.alpha, b.alpha\}}}: Gamma parameters specifying local DP concentration prior.
 \item {\texttt{\{a.tau, b.tau\}}}: Gamma parameters specifying global DP concentration prior.
+\item {\texttt{pnorm}}: Plate normalization. If {\texttt{TRUE}}, each plate is normalized to zero mean and unit variance, prior to analysis. Default is {\texttt{FALSE}}.
 \item {\texttt s}: Used to specify a random seed (for reproducibility purposes). Default is {\texttt{NULL}}.
 \item {\texttt{store}}: If {\texttt{TRUE}}, all samples of certain latent variables are stored in the output object. Default is {\texttt{FALSE}}.
 \end{itemize} 
