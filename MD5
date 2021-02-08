@@ -1,4 +1,4 @@
-36a87a0f2e62eb84c205a1e76c1bb2f8 *DESCRIPTION
+4428bb763c97df614619ee1c0f32b4be *DESCRIPTION
 e155f75d501e68adb9b645131097f073 *NAMESPACE
 0d9e89f8be00f8c0038e81330a00d28e *R/abfun.R
 06e209f49319899414824b305e5c84b9 *R/alpha.u.R
@@ -16,16 +16,16 @@ af39403180156871f97864083fe31d08 *R/mu.k.u.R
 8e584b25d89a54e2302fec51c33f04f6 *R/nu.u.R
 f20b61bd74df046e77d8537286ef34e0 *R/pai.u.R
 9803b84ea75777c647303eda2c657b1d *R/ptrace.R
-19ea7cd0a4651a5c48ace2b2c5aea45a *R/r.fdr.R
+15fbaa40dc1d16a5c8dc24e4b768e59e *R/r.fdr.R
 b6e0af816bf24ccf07ae1ad5859760fa *R/sig.k.u.R
 2972e393d2cdfb0f8f023e5d04f9b109 *R/tau.u.R
 ed68f73ab7362baebb4019affae4bfd3 *R/z.pr.u.R
-d2f425ddf1bb0bd0f747af017ad543f6 *build/partial.rdb
-b2c0b0a000ee44d5822b463d30c327ab *build/vignette.rds
+0c1dc162be180991a745a81bba841f2b *build/partial.rdb
+cc81882c2472d459104558a6ae95969b *build/vignette.rds
 953472f1733a1a804ae1ab794ce70dab *inst/CITATION
-1fe01548c69fc27601d2264fd74dbd5e *inst/doc/BHTSpackManual.R
+b9c17135300ae27d99fd24bcbefd7f63 *inst/doc/BHTSpackManual.R
 4fa670b4de603b51b3f8cca7dfbbe5b7 *inst/doc/BHTSpackManual.Rnw
-4fc027810563065dd02eca37af7a0e51 *inst/doc/BHTSpackManual.pdf
+9fdaed6287b4931d368e199f75d0b704 *inst/doc/BHTSpackManual.pdf
 34b0414a5828cb8a095a82e64ffd49ca *man/BHTSpack-package.Rd
 93b3e61c85da76ae709ecff540e55c71 *man/abfun.Rd
 9b5317e25182a36cc3a393a7ce02a006 *man/alpha.u.Rd

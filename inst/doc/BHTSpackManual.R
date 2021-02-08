@@ -1,4 +1,4 @@
-## ----echo=TRUE-----------------------------------------------------------
+## ----echo=TRUE----------------------------------------------------------------
 # loading library
 library(BHTSpack)
 
@@ -28,7 +28,7 @@ ptrace(b.est, "mu1", ndisc=100, nr=3, nc=4, type="acf")
 
 sessionInfo()
 
-## ----echo=TRUE-----------------------------------------------------------
+## ----echo=TRUE----------------------------------------------------------------
 # loading library
 library(BHTSpack)
 
@@ -42,7 +42,7 @@ b.est = bhts(Z[["Z"]], iters=200, H=10, K=10, a.alpha=10, b.alpha=5, a.tau=10, b
 # create an html file
 #bhts2HTML(res, dir="/dir/", fname="tophits")
 
-## ----echo=TRUE-----------------------------------------------------------
+## ----echo=TRUE----------------------------------------------------------------
 library(BHTSpack)
 Z = data.create(N=80, nr=8, nc=10, M=1000, p=0.4, s=1234, covrow=read.csv("covrow.csv"), covcol=read.csv("covcol.csv"))
 I = unlist(Z[["I"]])
@@ -65,7 +65,7 @@ lines(density(Z[B==1]), col="black", lty=3, lwd=2)
 legend("topright", legend=c("Component 1", "Component 2", "Component 3", "Component 4", "All Components", "Non-Hits", "Hits"), 
 col=c("blue", "green", "yellow", "red", "black", "black", "black"), lty=c(1, 1, 1, 1, 1, 2, 3), lwd=c(1, 1, 1, 1, 1, 2, 2))
 
-## ----echo=TRUE-----------------------------------------------------------
+## ----echo=TRUE----------------------------------------------------------------
 #library(BHTSpack)
 #library(pROC)
 #library(sights)
@@ -226,7 +226,7 @@ col=c("blue", "green", "yellow", "red", "black", "black", "black"), lty=c(1, 1, 
 #" (AUC=", round(auc(unlist(Z[["B"]]), rhitind), 3), ")", sep=""), paste("B-score", " (AUC=", round(auc(unlist(Z[["B"]]), bhitind), 3), 
 #")", sep="")), col=c("blue", "green", "red"), lty=c(1,1,1))
 
-## ----echo=TRUE-----------------------------------------------------------
+## ----echo=TRUE----------------------------------------------------------------
 library(BHTSpack)
 #library(pROC)
 
@@ -310,7 +310,7 @@ mu10 = seq(mu, 2*mu, mu/25)
 #plot((mu10-mu00)[1:25], AUC, pch=16, xlab=expression(paste(mu[1][0]-mu[0][0])), cex=1.5, cex.lab=1.5, ylim=c(0.8, 0.9))
 #abline(v=mu, col="red", lty=2, lwd=2)
 
-## ----echo=TRUE-----------------------------------------------------------
+## ----echo=TRUE----------------------------------------------------------------
 #library(BHTSpack)
 #library(pROC)
 #library(sights)
@@ -363,7 +363,7 @@ mu10 = seq(mu, 2*mu, mu/25)
 #" (AUC=", round(auc(unlist(Z[["B"]]), rhitind), 3), ")", sep=""), paste("B-score", " (AUC=", round(auc(unlist(Z[["B"]]), bhitind), 3), 
 #")", sep="")), col=c("blue", "green", "red"), lty=c(1,1,1))
 
-## ----echo=TRUE-----------------------------------------------------------
+## ----echo=TRUE----------------------------------------------------------------
 #library(BHTSpack)
 #library(pROC)
 #library(sights)
